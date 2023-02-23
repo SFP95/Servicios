@@ -14,6 +14,8 @@ public class MyService extends IntentService {
     private  static  final String TAG = "PDMD";
     private ToneGenerator _tg;
     protected final static int DURACION = 500;
+
+    //mirar en apuntes profe, porque no me cuadra
     public MyService(String name) {
         super(name);
     }
