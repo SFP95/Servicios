@@ -10,10 +10,12 @@
         android:id="@+id/b9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onPulsar"
         android:text="9"
         app:layout_constraintBaseline_toBaselineOf="@+id/b8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/b8" />
+        app:layout_constraintStart_toEndOf="@+id/b8"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/b7"
@@ -21,10 +23,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="3dp"
+        android:onClick="onPulsar"
         android:text="7"
         app:layout_constraintBaseline_toBaselineOf="@+id/b8"
         app:layout_constraintEnd_toStartOf="@+id/b8"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/b8"
@@ -32,10 +36,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="9dp"
+        android:onClick="onPulsar"
         android:text="8"
         app:layout_constraintEnd_toStartOf="@+id/b9"
         app:layout_constraintStart_toEndOf="@+id/b7"
-        app:layout_constraintTop_toBottomOf="@+id/b5" />
+        app:layout_constraintTop_toBottomOf="@+id/b5"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/b2"
@@ -43,10 +49,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="9dp"
+        android:onClick="onPulsar"
         android:text="2"
         app:layout_constraintEnd_toStartOf="@+id/b3"
         app:layout_constraintStart_toEndOf="@+id/b1"
-        app:layout_constraintTop_toTopOf="@+id/guideline" />
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/b1"
@@ -54,28 +62,34 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="3dp"
+        android:onClick="onPulsar"
         android:text="1"
         app:layout_constraintBaseline_toBaselineOf="@+id/b2"
         app:layout_constraintEnd_toStartOf="@+id/b2"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/bHas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onPulsar"
         android:text="#"
         app:layout_constraintBaseline_toBaselineOf="@+id/b0"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/b0" />
+        app:layout_constraintStart_toEndOf="@+id/b0"
+        tools:ignore="OnClick"/>
 
     <Button
         android:id="@+id/b3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onPulsar"
         android:text="3"
         app:layout_constraintBaseline_toBaselineOf="@+id/b2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/b2" />
+        app:layout_constraintStart_toEndOf="@+id/b2"
+        tools:ignore="OnClick"/>
 
     <Button
         android:id="@+id/bAsterisc"
@@ -83,6 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="3dp"
+        android:onClick="onPulsar"
         android:text="*"
         app:layout_constraintBaseline_toBaselineOf="@+id/b0"
         app:layout_constraintEnd_toStartOf="@+id/b0"
@@ -94,19 +109,23 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="39dp"
         android:layout_marginEnd="9dp"
+        android:onClick="onPulsar"
         android:text="5"
         app:layout_constraintEnd_toStartOf="@+id/b6"
         app:layout_constraintStart_toEndOf="@+id/b4"
-        app:layout_constraintTop_toBottomOf="@+id/b2" />
+        app:layout_constraintTop_toBottomOf="@+id/b2"
+        tools:ignore="OnClick"/>
 
     <Button
         android:id="@+id/b6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onPulsar"
         android:text="6"
         app:layout_constraintBaseline_toBaselineOf="@+id/b5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/b5" />
+        app:layout_constraintStart_toEndOf="@+id/b5"
+        tools:ignore="OnClick"/>
 
     <Button
         android:id="@+id/b4"
@@ -114,10 +133,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="3dp"
+        android:onClick="onPulsar"
         android:text="4"
         app:layout_constraintBaseline_toBaselineOf="@+id/b5"
         app:layout_constraintEnd_toStartOf="@+id/b5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick"/>
 
     <Button
         android:id="@+id/b0"
@@ -125,10 +146,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="42dp"
         android:layout_marginEnd="9dp"
+        android:onClick="onPulsar"
         android:text="0"
         app:layout_constraintEnd_toStartOf="@+id/bHas"
         app:layout_constraintStart_toEndOf="@+id/bAsterisc"
-        app:layout_constraintTop_toBottomOf="@+id/b8" />
+        app:layout_constraintTop_toBottomOf="@+id/b8"
+        tools:ignore="OnClick"/>
 
     <Button
         android:id="@+id/bLanzar"
