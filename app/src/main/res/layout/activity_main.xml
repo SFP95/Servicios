@@ -157,10 +157,11 @@
         android:id="@+id/bLanzar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="28dp"
         android:onClick="onLanzar"
         android:text="Lanzar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="OnClick" />
@@ -169,8 +170,8 @@
         android:id="@+id/bDetener"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="47dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
         android:onClick="onDetener"
         android:text="Detener"
         app:layout_constraintStart_toStartOf="@+id/bLanzar"
@@ -183,5 +184,18 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="274dp" />
+
+    <TextView
+        android:id="@+id/tvPantalla"
+        android:layout_width="202dp"
+        android:layout_height="117dp"
+        android:hint="Numero marcado"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
